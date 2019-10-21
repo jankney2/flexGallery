@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    height:100vh;
+}
+
+.col {
+    text-align: center;
+    transition: all 1s ease-in-out;
+    width:25%;
+    height:100%;
+}
+
+
+.panel1 {
+    border: 1px solid red;
+}
+
+.panel2 {
+    border: 1px solid blue;
+}
+.panel3 {
+    border: 1px solid blue;
+}
+.panel4 {
+    border: 1px solid blue;
+}
+
+h2 {
+    position: relative;
+    top:25%;
+}
