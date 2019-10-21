@@ -1,40 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
 body {
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
 }
 
 .contain {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    /* align-items: center; */
     border: 1px solid #000;
-    height:100vh;
+
 }
 
 .col {
     text-align: center;
-    transition: all 1s ease-in-out;
-    width:25%;
-    height:100%;
+    transition:all 1s ease-in-out;
+    flex:1;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* overflow: hidden; */
 }
 
 
 .panel1 {
-    border: 1px solid red;
+
+    background-image: url('https://images.unsplash.com/photo-1568495824441-a2052db83f64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=957&q=80');
+    background-repeat: no-repeat;
+    /* height:100%; */
+
+    background-size: cover;
+    background-position: center;
 }
 
 .panel2 {
-    border: 1px solid blue;
+
+    background-image: url('https://images.unsplash.com/photo-1568322714397-333fc0b6f229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80');
+    background-repeat: no-repeat;
+    /* height:100%; */
+    background-position: center;
+    background-size: cover;
 }
 .panel3 {
-    border: 1px solid blue;
+
+    background-image: url('https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+    background-repeat: no-repeat;
+    /* height:100%; */
+    background-position: center;
+    background-size: cover;
 }
 .panel4 {
-    border: 1px solid blue;
+
+    background-image: url('https://images.unsplash.com/photo-1569365788898-f96aa58c27eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80');
+    background-repeat: no-repeat;
+    /* height:100%; */
+    background-position: center;
+    background-size: cover;
 }
 
 h2 {
     position: relative;
-    top:25%;
+    /* top:25%; */
+}
+
+.selected {
+flex:6;
+/* background-attachment:scroll; */
+    
 }
